@@ -1,0 +1,95 @@
+.ng-hide {
+    display: none;
+}
+a {
+    cursor: pointer;
+}
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar-fixed-bottom .list-inline {
+    padding-top: 1em;
+}
+/*------ header -----*/
+.logo,
+.logo:hover {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.logo img {
+    height: 100%;
+    display: inline-block;
+}
+
+.navbar-search {
+    padding: 8px 0;
+}
+/*------ List -----*/
+.heroes-list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.heroes-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+    border-bottom: 1px solid #4e5d6c;
+}
+.heroes-image {
+    width: 33.33%;
+    padding: 1.35em;
+    text-align: center;
+}
+.heroes-image img {
+    max-width: 100%;
+}
+.heroes-info {
+    width: 33.33%;
+    padding: 1.35em;
+    vertical-align: middle;
+}
+.heroes-info.danger {
+    background: #d9534f;
+}
+.heroes-info.success {
+    background: #5cb85c;
+}
+
+/*------ Tabs -----*/
+.tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+    border-bottom: 1px solid #4e5d6c;
+    list-style: none;
+    padding: 0;
+}
+.tabs li {
+    width: 50%;
+    text-align: center;
+    margin-bottom: -1px;
+    color: #ebebeb;
+}
+.tabs li a,
+.tabs li a:hover {
+    color: #ebebeb;
+    text-decoration: none;
+}
+.tabs li.active {
+    border-bottom: 2px solid #df691a;
+}
+.tabs li.active a {
+    color: #df691a;
+}

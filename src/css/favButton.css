@@ -1,0 +1,10 @@
+.heroes-item a,
+.heroes-item a:hover {
+    text-decoration: none;
+}
+.heroes-item a.text-muted:hover {
+    color: #4e5d6c;
+}
+.heroes-item a.text-danger:hover {
+    color: #d9534f;
+}

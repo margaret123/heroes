@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-xs-12">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+                <ul class="list-inline">
+                    <li>
+                        <strong>Sort by:</strong>
+                    </li>
+                    <li>
+                        <a ng-click="sortBy('name')">
+                            Name <span class="glyphicon glyphicon-sort-by-alphabet"
+                                       ng-show="propertyName === 'name'"
+                                       ng-class="{'glyphicon-sort-by-alphabet-alt': reverse}"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ng-click="sortBy('age')">
+                            Age <span class="glyphicon glyphicon-sort-by-order" ng-show="propertyName === 'age'"
+                                      ng-class="{'glyphicon-sort-by-order-alt': reverse}"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ng-click="sortBy('origin')">
+                            Origin <span class="glyphicon glyphicon-sort-by-alphabet"
+                                         ng-show="propertyName === 'origin'"
+                                         ng-class="{'glyphicon-sort-by-alphabet-alt': reverse}"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
