@@ -39,4 +39,4 @@ folder of project.
 ```
 yarn build
 ```
-The heroes.js distribution file will be available in the dist folder in the root folder of project.
+The heroes.js minified file will be available in the dist folder in the root folder of project.
