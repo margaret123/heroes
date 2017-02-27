@@ -26,7 +26,7 @@ describe('Controller: Home', function () {
         });
     }
 
-    it('test', function () {
+    it('test heroesService.getHeroes to be called', function () {
         spyOn(heroesServiceMock, 'getHeroes').and.callThrough();
         makeController();
 

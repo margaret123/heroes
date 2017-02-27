@@ -41,7 +41,7 @@ describe('Service: Heroes', function () {
         }
     }));
 
-    it('test fetching heroes array', function () {
+    it('test promise for fetching heroes array', function () {
         var data;
         var promise = heroesService.getHeroes();
         promise.then(function(result){
