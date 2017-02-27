@@ -1,5 +1,5 @@
 ## Development
-The library is a [Node.js](https://nodejs.org/en/) module itself. Distribution of this module is
+The library is a [Node.js](https://nodejs.org/en/) module itself. The module is
 bundled by [Webpack](https://webpack.js.org/). The source code makes use of ECMAScript 6 features
 which is eventually safely transpiled into ECMAScript 5 (supported by all modern browsers) by 
 [Babel](http://babeljs.io/). Package is managed by [Yarn](https://yarnpkg.com/) (enhanced wrapper
